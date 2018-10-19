@@ -1,0 +1,88 @@
+:root {
+  --main-white: #f7f8ff;
+  --main-font: 'Montserrat', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app  {
+display: flex;
+flex-direction: column;
+}
+.linkBox {
+  margin: 10px;
+  padding: 10px;
+  color: var(--main-white);
+  font-family: var(--main-font);
+  align-content: center;
+}
+
+
+
+.Top {
+
+  justify-content: center;
+  font-size:25px;
+}
+
+#title {
+  color: var(--main-white);
+  font-family: var(--main-font);
+  margin: 15px;
+}
+
+.info {
+  justify-content: center;
+  font-size: 15px;
+}
+
+#subtab1 {
+  color:#f7f8ff;
+  font-family: var(--main-font);
+  margin: 15px;
+}
+
+#intro {
+  color:#f7f8ff;
+  font-family: var(--main-font);
+  margin: 15px;
+}
+
+.content  {
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+#subtab2  {
+  color:#f7f8ff;
+  font-family: var(--main-font);
+  margin: 15px;
+}
+#notice {
+  color:#f7f8ff;
+  font-family: var(--main-font);
+  margin: 15px;
+}
+
+.promo {
+  background-color: #f7f8ff;
+}
+
+#Footer {
+  justify-content: center;
+  padding: 10px;
+  color: var(--main-white);
+  font-family: var(--main-font);
+}
+
+.Sorry  {
+  color: var(--main-white);
+  font-family: var(--main-font);
+  padding: 20px;
+  text-align: center;
+}
+
